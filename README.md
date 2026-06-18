@@ -120,5 +120,4 @@ mvn allure:serve
 
 ## Test Execution Demo
 
-<!-- Add a GIF showing the tests running locally -->
-*GIF placeholder — record tests running and add here*
+![Test Run Demo](demo.gif)
