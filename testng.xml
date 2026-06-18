@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Automation Suite">
+    <listeners>
+        <listener class-name="sporty.api_automation.tests.Listeners" />
+    </listeners>
+    <test name="Zippopotam API Tests" preserve-order="true">
+        <classes>
+            <class name="sporty.api_automation.tests.TestCases">
+                <methods>
+                    <include name="testValidZipCodes" />
+                    <include name="testInvalidZipCodes" />
+                    <include name="testResponseSchema" />
+                    <include name="testResponseTime" />
+                    <include name="testPostMethod" />
+                    <include name="testPutMethod" />
+                    <include name="testPatchMethod" />
+                    <include name="testDeleteMethod" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
